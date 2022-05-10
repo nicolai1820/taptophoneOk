@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".micuenta">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_boton_para_ir_atras"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="74dp"
+        android:text="Mi Cuenta"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView68"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="28dp"
+        android:text="Edita tus datos"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView68">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Nombre del Propietario"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="220dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="358dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Carlos Arcila"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="253dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="196dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Nombre del Comercio"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="312dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="361dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Comercial Papelera"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Correo Electronico"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="412dp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress5"
+                android:layout_width="361dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="ca.arcila10@outlook.com"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="440dp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Contraseña"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="491dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword4"
+                android:layout_width="359dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="20dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="sdwdwfrwad"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="523dp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Tipo de Negocio"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="576dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="359dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.519"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:layout_editor_absoluteY="595dp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Promedio de Ventas Mensuales"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="651dp" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

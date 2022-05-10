@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.com.netcom.ejemplocompilacion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ejemplocompilacion">
+        <activity
+            android:name=".menuhamburger"
+            android:exported="false" />
+        <activity
+            android:name=".historialdetransacciones"
+            android:exported="false" />
+        <activity
+            android:name=".micuenta"
+            android:exported="false" />
+        <activity
+            android:name=".montoventa"
+            android:exported="false" />
+        <activity
+            android:name=".Anulacionok"
+            android:exported="false" />
+        <activity
+            android:name=".animation4card"
+            android:exported="false" />
+        <activity
+            android:name=".detallesell"
+            android:exported="false" />
+        <activity
+            android:name=".sendmail"
+            android:exported="false" />
+        <activity
+            android:name=".sendmailok"
+            android:exported="false" />
+        <activity
+            android:name=".transaccionOK"
+            android:exported="false" />
+        <activity
+            android:name=".makesell"
+            android:exported="false" />
+        <activity
+            android:name=".homeventa"
+            android:exported="false" />
+        <activity
+            android:name=".intro3"
+            android:exported="false" />
+        <activity
+            android:name=".intro2"
+            android:exported="false" />
+        <activity
+            android:name=".registrook"
+            android:exported="false" />
+        <activity
+            android:name=".infonegocio"
+            android:exported="false" />
+        <activity
+            android:name=".intro1"
+            android:exported="false" />
+        <activity
+            android:name=".Newpassok"
+            android:exported="false" />
+        <activity
+            android:name=".Newpass1"
+            android:exported="false" />
+        <activity
+            android:name=".registro1"
+            android:exported="false" />
+        <activity
+            android:name=".olvidopass1"
+            android:exported="false" />
+        <activity
+            android:name=".animation3card"
+            android:exported="false" />
+        <activity
+            android:name=".animation2card"
+            android:exported="false" />
+        <activity
+            android:name=".animation1card"
+            android:exported="false" />
+        <activity
+            android:name=".login2ok"
+            android:exported="false" />
+        <activity
+            android:name=".login1ok"
+            android:exported="false" /> <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

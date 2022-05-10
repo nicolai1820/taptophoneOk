@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="co.com.netcom.ejemplocompilacion.inicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+        <action
+            android:id="@+id/action_inicioFragment_to_olvidoPass1Fragment"
+            app:destination="@id/olvidoPass1Fragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="co.com.netcom.ejemplocompilacion.loginFragment2"
+        android:label="fragment_login2"
+        tools:layout="@layout/fragment_login2" />
+    <fragment
+        android:id="@+id/olvidoPass1Fragment"
+        android:name="co.com.netcom.ejemplocompilacion.OlvidoPass1Fragment"
+        android:label="fragment_olvido_pass1"
+        tools:layout="@layout/fragment_olvido_pass1" />
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="co.com.netcom.ejemplocompilacion.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+</navigation>
